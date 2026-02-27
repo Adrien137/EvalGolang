@@ -1,0 +1,19 @@
+hello world
+this is a test
+
+123 numbers ignored
+
+Faut vraiment être bete pour rien mettre quand même c chaud, tu devrait consulter
+hello again
+
+ss
+
+Contraintes générales
+Go uniquement
+Standard library autorisée
+
+Bibliothèques externes autorisées uniquement lorsqu’elles sont imposées (Wikipédia)
+Le programme doit gérer les erreurs proprement
+
+Les fichiers générés doivent être écrits dans out/
+

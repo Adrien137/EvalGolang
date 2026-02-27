@@ -1,0 +1,8 @@
+Contraintes générales
+Go uniquement
+Standard library autorisée
+
+Bibliothèques externes autorisées uniquement lorsqu’elles sont imposées (Wikipédia)
+Le programme doit gérer les erreurs proprement
+
+Les fichiers générés doivent être écrits dans out/

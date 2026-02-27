@@ -1,0 +1,2 @@
+data\input.txt : 9 lignes
+data\restest.txt : 8 lignes
