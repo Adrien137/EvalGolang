@@ -24,7 +24,7 @@ Librairie externe utilisée :
 Lien vers le GitHub permettant l'implémentation de goquery pour analyser une page Wikipédia :
 - go get github.com/PuerkitoBio/goquery
 
-Le programme utilise un fichier config.json qui permet de prédéfinir les options par defaults si rien n'est rentrer dans le terminal de commande lors des choix.
+Le programme utilise un fichier config.json qui permet de prédéfinir les options par defaults.
 
 Exemple :
 {
@@ -34,4 +34,4 @@ Exemple :
   "default_ext": ".txt"
 }
 
-Si le fichier n’est pas trouvé alors des valeurs par défaut sont utilisées.
+Si le fichier rentrée par l'utilisateur n’est pas trouvé alors les valeurs par défaut configuré dans ce fichier json sont utilisées.
