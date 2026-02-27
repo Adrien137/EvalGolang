@@ -14,8 +14,8 @@ Technologies utilisées :
 - encoding/json vers la lecture du fichier config
 - net/http pour les requêtes web
 - github.com/PuerkitoBio/goquery  parsing HTML façon jQuery
-- os/exec → exécution de commandes système
-- syscall → gestion des permissions (Windows & Unix)
+- os/exec pour l'exécution de commandes système
+- syscall pour gestion des permissions (Windows & Unix)
 
 Librairie externe utilisée :
 - PuerkitoBio – goquery
@@ -23,7 +23,7 @@ Librairie externe utilisée :
 
 Lien vers le GitHub permettant l'implémentation de goquery pour analyser une page Wikipédia :
 - go get github.com/PuerkitoBio/goquery
-  
+
 ---------------------------------------------------
 
 Le programme utilise un fichier config.json qui permet de prédéfinir les options par defaults.
