@@ -58,18 +58,18 @@ Lire un fichier texte (le chemin par default est depuis le dossier fileops/
 Afficher : la Taille, la date de modification, le Nombre de lignes, le Nombre de mots (hors nombres), la Longueur moyenne des mots et un Filtrage par mot-clé
 
 Générer :
-filtered.txt
-filtered_not.txt
-head.txt
-tail.txt
+- filtered.txt
+- filtered_not.txt
+- head.txt
+- tail.txt
 
 Concepts appris :
 
-bufio.Scanner
-os.Stat
-strings.Fields
-slices
-gestion d’erreurs
+- bufio.Scanner
+- os.Stat
+- strings.Fields
+- slices
+- gestion d’erreurs
 
 ----------------------------------------
 
@@ -82,9 +82,9 @@ Un index.txt regroupant la taille + la date de modification
 et un merged.txt qui correspond à la fusion de tous les fichiers
 
 Concepts appris :
-filepath.Walk
-io.Copy
-manipulation de chemins
+- filepath.Walk
+- io.Copy
+- manipulation de chemins
 
 -----------------------------------------
 
