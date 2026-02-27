@@ -23,6 +23,8 @@ Librairie externe utilisée :
 
 Lien vers le GitHub permettant l'implémentation de goquery pour analyser une page Wikipédia :
 - go get github.com/PuerkitoBio/goquery
+  
+---------------------------------------------------
 
 Le programme utilise un fichier config.json qui permet de prédéfinir les options par defaults.
 
@@ -35,8 +37,9 @@ Exemple :
 }
 
 Si le fichier rentrée par l'utilisateur n’est pas trouvé lors des analyses, alors les valeurs par défaut configuré dans ce fichier json sont utilisées.
-
 Voici ce que donne rend le script une fois lancé : 
+
+---------------------------------------
 
 MENU PRINCIPAL
 1 - Analyse fichier
@@ -45,6 +48,8 @@ MENU PRINCIPAL
 4 - ProcessOps
 5 - SecureOps
 6 - Quitter
+
+--------------------------------------
 
 1) Analyse de fichier (Choix A)
 
@@ -66,6 +71,8 @@ strings.Fields
 slices
 gestion d’erreurs
 
+----------------------------------------
+
 2) Analyse multi-fichiers (Choix B)
 
 Parcourt un dossier et analyse tous les fichiers .txt. pour générer :
@@ -78,6 +85,8 @@ Concepts appris :
 filepath.Walk
 io.Copy
 manipulation de chemins
+
+-----------------------------------------
 
 3) Analyse Wikipédia (Choix C)
 
@@ -99,6 +108,8 @@ Concepts appris :
 - User-Agent ( pour ne pas être bloquer par wikipedia lors du téléchargement de la page )
 - parsing DOM
 - gestion des réponses HTTP
+
+------------------------------------------
 
 4) ProcessOps (Choix D)
 Permet de :
@@ -122,6 +133,8 @@ Concepts appris :
 - différences Windows / Unix
 - runtime.GOOS
 
+------------------------------------------
+
 5) SecureOps (Choix E)
 
 Fonctionnalités de SécureOps :
@@ -143,6 +156,8 @@ Concepts appris :
 - syscall
 - bitwise operations permettant de modifier (0222)
 - gestion des attributs Windows
+
+---------------------------------------------------
 
 La structure du projet à été réalisé ainsi ( tout les fichiers crée par le programme vont ou seront crée dans /out mais se mettent a jour automatiquement lors des executions du script
 
