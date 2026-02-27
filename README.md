@@ -161,12 +161,10 @@ Concepts appris :
 
 La structure du projet à été réalisé ainsi ( tout les fichiers crée par le programme vont ou seront crée dans /out mais se mettent a jour automatiquement lors des executions du script
 
-/fileops
- ├── Eval.go
- ├── config.json
- ├── /data
- └── /out
+/fileops = Eval.go / config.json / data / out
+
 ------------------------------------------------------
+
 Pour lancer le programme, il suffit d'ouvrir l'invite de commande puis de se déplacer à l'endroit ou ce trouve le fichier /fileops (assurer vous d'avoir go d'installer, sinon cela ne fonctionnera pas, voici le site officiel pour télécharger go : https://go.dev/dl/ ) puis lancer la commande permettant de lancer le script : go run Eval.go
 
 Cela fonctionne aussi avec un fichier config personnalisée, voici la commande pour le faire :
