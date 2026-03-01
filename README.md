@@ -53,10 +53,9 @@ MENU PRINCIPAL :
 
 1) Analyse de fichier (Choix A)
 
-Permet de :
-Lire un fichier texte (le chemin par default est depuis le dossier fileops/
+Permet de lire un fichier texte (le chemin par default est depuis le dossier fileops/
 
-Afficher : 
+Cela affiche les informations suivantes sur le fichier : 
 - la Taille
 - la date de modification
 - le Nombre de lignes
@@ -83,9 +82,9 @@ Concepts appris :
 
 Parcourt un dossier et analyse tous les fichiers .txt. pour générer :
 
-Un report.txt correspondant au nombre de lignes par fichier
-Un index.txt regroupant la taille + la date de modification
-et un merged.txt qui correspond à la fusion de tous les fichiers
+Un report.txt correspondant au nombre de lignes par fichier,
+Un index.txt regroupant la taille + la date de modification,
+Est un merged.txt qui correspond à la fusion de tous les fichiers,
 
 Concepts appris :
 - filepath.Walk
