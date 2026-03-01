@@ -91,9 +91,9 @@ Concepts appris :
 3) Analyse Wikipédia (Choix C)
 
 Télécharge une page Wikipédia (version française).
-Exemple : Pokémon
-URL générée : https://fr.wikipedia.org/wiki/Pokémon
-Site utilisé : Wikipédia
+Exemple : Pokémon,
+URL générée : https://fr.wikipedia.org/wiki/Pokémon,
+Le site utilisé : Wikipédia,
 Fonctionnement :
 - Requête HTTP
 - Parsing HTML avec goquery
@@ -104,10 +104,10 @@ Fonctionnement :
 
 Concepts appris :
 
-- http.NewRequest
+- Http.NewRequest
 - User-Agent ( pour ne pas être bloquer par wikipedia lors du téléchargement de la page )
-- parsing DOM
-- gestion des réponses HTTP
+- Parsing DOM
+- La gestion des réponses HTTP
 
 ------------------------------------------
 
@@ -115,17 +115,17 @@ Concepts appris :
 Permet de :
 
 - Lister les processus
-Pour Windows on utilise tasklist
-Pour macOS on utilise ps -Ao pid,comm
+Pour Windows on utilise tasklist,
+Pour macOS on utilise ps,
 
 - Filtrer un processus par nom afin d'avoir son PID
 Par exemple, on peut écrit Discord pour ensuite voir le PID de discord
 
 - Kill sécurisé d’un processus
-Vérifie que le PID existe bien ( renvoie un message d'erreur di il n'existe pas )
-Demande la confirmation avant de supprimer
-Pour Windows on utilise taskkill
-Pour macOS/Linux on utilise kill -9
+Vérifie que le PID existe bien ( renvoie un message d'erreur di il n'existe pas ),
+Demande la confirmation avant de supprimer,
+Pour Windows on utilise taskkill,
+Pour macOS/Linux on utilise kill -9,
 
 Concepts appris :
 
@@ -139,17 +139,17 @@ Concepts appris :
 
 Fonctionnalités de SécureOps :
 
-- Création d’un fichier .lock du fichier verrouiller avec possibilité de le dévérouiller
-- Modification des permissions sur un fichier/dossier
-- Compatible Windows et Unix
-- Journalisation dans un fichier nommée audit.log repertoriant automatiquement tout les fichiers/dossiers lock et unlock ( fichier se reconstruisant si supprimé lors du lancement du programme de vérrouillage/dévérouillage)
+- Création d’un fichier .lock du fichier verrouiller avec possibilité de le dévérouiller,
+- Modification des permissions sur un fichier/dossier,
+- Compatible Windows et Unix,
+- Journalisation dans un fichier nommée audit.log repertoriant automatiquement tout les fichiers/dossiers lock et unlock ( fichier se reconstruisant si supprimé lors du lancement du programme de vérrouillage/dévérouillage),
 
 Menu SecureOps :
-- Verrouiller un fichier (.lock) (crée le fichier en .lock dans le dossier /out)
-- Déverrouiller (déverouille tout fichier en .lock puis le supprime)
-- Mettre en lecture seule
-- Retirer lecture seule
-- Vérifier permissions
+- Verrouiller un fichier (.lock) (crée le fichier en .lock dans le dossier /out),
+- Déverrouiller (déverouille tout fichier en .lock puis le supprime),
+- Mettre en lecture seule,
+- Retirer lecture seule,
+- Vérifier permissions,
 
 Concepts appris :
 - os.Chmod
