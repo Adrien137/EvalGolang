@@ -41,7 +41,7 @@ Voici ce que donne rend le script une fois lancé :
 
 ---------------------------------------
 
-MENU PRINCIPAL
+MENU PRINCIPAL : 
 1 - Analyse fichier,
 2 - Analyse multi-fichiers,
 3 - Analyse page wikipedia,
@@ -55,7 +55,13 @@ MENU PRINCIPAL
 
 Permet de :
 Lire un fichier texte (le chemin par default est depuis le dossier fileops/
-Afficher : la Taille, la date de modification, le Nombre de lignes, le Nombre de mots (hors nombres), la Longueur moyenne des mots et un Filtrage par mot-clé
+
+Afficher : 
+- la Taille
+- la date de modification
+- le Nombre de lignes
+- le Nombre de mots (hors nombres)
+- la Longueur moyenne des mots et un Filtrage par mot-clé
 
 Générer :
 - filtered.txt
