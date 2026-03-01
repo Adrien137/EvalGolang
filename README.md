@@ -42,12 +42,12 @@ Voici ce que donne rend le script une fois lancé :
 ---------------------------------------
 
 MENU PRINCIPAL
-1 - Analyse fichier
-2 - Analyse multi-fichiers
-3 - Analyse page wikipedia
-4 - ProcessOps
-5 - SecureOps
-6 - Quitter
+1 - Analyse fichier,
+2 - Analyse multi-fichiers,
+3 - Analyse page wikipedia,
+4 - ProcessOps,
+5 - SecureOps,
+6 - Quitter,
 
 --------------------------------------
 
@@ -139,9 +139,9 @@ Concepts appris :
 
 Fonctionnalités de SécureOps :
 
-- Création d’un fichier .lock du fichier verrouiller
+- Création d’un fichier .lock du fichier verrouiller avec possibilité de le dévérouiller
 - Modification des permissions sur un fichier/dossier
-- Compatible Windows & Unix
+- Compatible Windows et Unix
 - Journalisation dans un fichier nommée audit.log repertoriant automatiquement tout les fichiers/dossiers lock et unlock ( fichier se reconstruisant si supprimé lors du lancement du programme de vérrouillage/dévérouillage)
 
 Menu SecureOps :
@@ -168,4 +168,4 @@ La structure du projet à été réalisé ainsi ( tout les fichiers crée par le
 Pour lancer le programme, il suffit d'ouvrir l'invite de commande puis de se déplacer à l'endroit ou ce trouve le fichier /fileops (assurer vous d'avoir go d'installer, sinon cela ne fonctionnera pas, voici le site officiel pour télécharger go : https://go.dev/dl/ ) puis lancer la commande permettant de lancer le script : go run Eval.go
 
 Cela fonctionne aussi avec un fichier config personnalisée, voici la commande pour le faire :
-go run Eval.go -config autre_config.json
+go run Eval.go -config chemin/vers/autre-config.json
