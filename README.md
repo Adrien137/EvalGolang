@@ -99,6 +99,7 @@ Télécharge une page Wikipédia (version française).
 Exemple : Pokémon,
 URL générée : https://fr.wikipedia.org/wiki/Pokémon,
 Le site utilisé : Wikipédia,
+
 Fonctionnement :
 - Requête HTTP
 - Parsing HTML avec goquery
