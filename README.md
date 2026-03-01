@@ -128,10 +128,10 @@ Pour macOS on utilise ps,
 Par exemple, on peut écrit Discord pour ensuite voir le PID de discord
 
 - Kill sécurisé d’un processus
-Vérifie que le PID existe bien ( renvoie un message d'erreur di il n'existe pas ),
-Demande la confirmation avant de supprimer,
-Pour Windows on utilise taskkill,
-Pour macOS/Linux on utilise kill -9,
+Vérifie que le PID existe bien ( renvoie un message d'erreur si il n'existe pas ).
+Demande la confirmation avant de supprimer.
+Pour Windows on utilise taskkill.
+Pour macOS/Linux on utilise kill -9.
 
 Concepts appris :
 
