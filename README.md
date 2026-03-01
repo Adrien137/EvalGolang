@@ -82,9 +82,9 @@ Concepts appris :
 
 Parcourt un dossier et analyse tous les fichiers .txt. pour générer :
 
-Un report.txt correspondant au nombre de lignes par fichier,
-Un index.txt regroupant la taille + la date de modification,
-Est un merged.txt qui correspond à la fusion de tous les fichiers,
+Un report.txt correspondant au nombre de lignes par fichier.
+Un index.txt regroupant la taille + la date de modification.
+Est un merged.txt qui correspond à la fusion de tous les fichiers.
 
 Concepts appris :
 - filepath.Walk
